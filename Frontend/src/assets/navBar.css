@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgb(81,151,176);
+    background: linear-gradient(90deg, rgba(81,151,176,1) 0%, rgba(131,175,208,1) 14%, rgba(136,204,255,1) 100%);
+    color: rgb(0, 0, 0);
+   
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+  }
+  #noti {
+    transition: transform 0.4s;
+  }
+  
+  #noti:hover {
+    transform: scale(1.10); /* Ajusta según tus preferencias */
+  }
+  #adminoti {
+    transition: transform 0.4s;
+  }
+  
+  #adminoti:hover {
+    transform: scale(1.10); /* Ajusta según tus preferencias */
+  }
+  #calc {
+    transition: transform 0.4s;
+  }
+  
+  #calc:hover {
+    transform: scale(1.10); /* Ajusta según tus preferencias */
+  }
+  #faq {
+    transition: transform 0.4s;
+  }
+  
+  #faq:hover {
+    transform: scale(1.10); /* Ajusta según tus preferencias */
+  }
+  #modfaq {
+    transition: transform 0.4s;
+  }
+  
+  #modfaq:hover {
+    transform: scale(1.10); /* Ajusta según tus preferencias */
+  }
+  #cerrar {
+    transition: transform 0.4s;
+  }
+  
+  #cerrar:hover {
+    transform: scale(1.10); /* Ajusta según tus preferencias */
+  }
+  
+
+  @media (max-width: 770px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+    .logo {
+      font-size: 1.2rem; /* Reduzca el tamaño de la fuente para teléfonos más pequeños */
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 480px) {
+    
+  
+    .nav-links {
+      gap: 25px; /* Reduzca el espacio entre los enlaces para teléfonos */
+    }
+  }

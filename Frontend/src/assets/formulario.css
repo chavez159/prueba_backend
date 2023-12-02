@@ -1,0 +1,47 @@
+/* Formulario.css */
+.formulario-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .formulario {
+    text-align: left;
+    flex-direction: column;
+  }
+  @media (max-width: 768px) {
+    .formulario-container {
+      padding: 10px;
+    }
+  
+    .formulario h1 {
+      font-size: 1.2rem;
+    }
+  
+    .formulario textarea {
+      margin-top: 3%;
+    }
+  
+    .formulario button {
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 480px) {
+    .formulario-container {
+      padding: 5px;
+    }
+
+    .formulario h1 {
+      font-size: 1.5rem;
+    }
+
+    .formulario textarea {
+      margin-top: 5%;
+      
+    }
+
+    .formulario button {
+      margin-top: 15px;
+    }
+  }

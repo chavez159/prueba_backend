@@ -1,0 +1,51 @@
+.banner img {
+    height: 70vh; /* Ajusta la altura máxima de la imagen del banner */
+    width: 95%;
+    margin: 3%;
+    
+    min-height: 200px;
+  }
+  .noticias {
+    display: flex;
+    justify-content: space-around; /* Otra opción es usar 'space-around' */
+    flex-wrap: wrap; /* Permite que las cartas se envuelvan a la siguiente fila si no hay suficiente espacio */
+    background-color: #E4E4E4;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  center{
+    margin: 2.5rem;
+    font-size: 1.2rem;
+  }
+  .botons{
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .noticias {
+    transition: transform 0.3s;
+  }
+  
+  .noticias:hover {
+    transform: scale(1.05); /* Ajusta según tus preferencias */
+  }
+  
+  /* Estilos adicionales para el resaltado */
+  .noticia.resaltado {
+    background-color: #f2f2f2; /* Color de fondo cuando se resalta */
+  }
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .noticias {
+      flex-direction: column;
+      background-color: #E4E4E4;
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 20px;
+      align-items: center;
+      align-content: center;
+    }
+  }
