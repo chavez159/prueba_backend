@@ -10,7 +10,7 @@ function App() {
 
   return (
    <>
-       <GoogleOAuthProvider clientId="151373060419-hflbjm4m12o1odr0frs1v4ad7rvpael6.apps.googleusercontent.com">
+       <GoogleOAuthProvider clientId="151373060419-l6vbn23matisacnmi9hu2p5v9d0mh3vr.apps.googleusercontent.com">
      <AppRouter/>
      </GoogleOAuthProvider>
    </>
